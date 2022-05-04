@@ -48,6 +48,10 @@
   width: 100%;
 }
 
+.searchbar input:focus {
+  outline:3px solid rgba(255, 159, 0, 1);
+}
+
 .searchbar button{
   position: absolute;
   top: 0;
