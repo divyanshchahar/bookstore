@@ -4,12 +4,15 @@
   margin: 0px;
 }
 
+body{
+  background-color: rgba(240, 240, 240, 1);
+}
+
 /* 
 ###############
 # TOP NAV BAR #
 ############### 
 */
-
 
 .topheader {
   display:flex;
@@ -71,4 +74,49 @@
 .topheader img {
   height: 40px;
   vertical-align: middle;
+}
+
+/* 
+##############
+# BOOKS LIST #
+############## 
+*/
+
+.booklistcontainer{
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px 300px;
+  justify-content: center;
+  row-gap: 50px;
+}
+
+.bookitem{
+  width:253.33px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  justify-self: center;
+}
+
+.bookitem img {
+  height: max(350px);
+  width: max(233.33px);
+  display: block;
+  margin: auto;
+}
+
+.booktitle{
+  font-size: 18px;
+  font-weight: bold;
+  margin: 2px 0px;
+}
+
+.bookauthor{
+  font-size: 16px;
+  color: rgb(22, 125, 143);
+  padding: 2px 0px;
+}
+
+.bookrating{
+  font-size: 14px;
 }
