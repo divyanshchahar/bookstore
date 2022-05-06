@@ -148,7 +148,7 @@ const Data = [
   },
   {
     id: 20,
-    title: 'Discover from Destiny',
+    title: 'Discover your Destiny',
     author: 'Robin Sharma',
     star: 'placeholder',
     image_url: require('../images/robin_sharma_12.png')
